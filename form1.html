@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo .png" >
+    <title>Immo+</title>
+    <link href="form1.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="border">
+        <span><a href="page acceuil1.html"><img src="./images/logo.png" width="120px" height="80px"></a></span>
+        <div class="container0">
+            <div><a href="page acceuil1.html" style="text-decoration: none;color: #4e4e4e; ">Accueil </a></div>
+            <a class="apropos" href="a propos1.html" style="text-decoration: none;color: #4e4e4e; ">A propos </a>
+              <a class="contact" href="contact1.html" style="text-decoration: none;color: #4e4e4e; ">Contact </a>
+              <div class="services"><a href="./page de services.html" style="text-decoration: none;color: #991b38; ">Nos Services </a></div>
+              <div class="services"><a href="./logout.php" style="text-decoration: none;color: #4e4e4e; ">Se deconnecter </a></div>
+            </div>   
+     <div>
+     <div class="container10">
+     <h2 >Bienvenue sur Immo!</h2>
+     <p>  Si vous êtes propriétaire et que vous cherchez à louer ou à vendre votre bien immobilier, vous êtes au bon endroit.</p>
+     <p>  Pour nous aider à mieux comprendre votre propriété et à la mettre en valeur auprès des acheteurs ou des locataires potentiels, nous vous demandons de remplir le formulaire ci-dessous.</p>
+     <p>  Nous vous assurons que toutes les informations que vous fournissez sont strictement confidentielles et ne seront utilisées que dans le but de promouvoir votre propriété.  </p>
+     <p>  Nous sommes convaincus que notre expertise et notre expérience dans le domaine de l'immobilier nous permettront de trouver rapidement et efficacement un acheteur ou un locataire pour votre bien immobilier.</p>
+     <p>  Nous vous remercions de nous faire confiance et nous sommes impatients de travailler avec vous !</p>
+     <p> Le formulaire se comporte de 2 parties :</p>
+     <ul>
+         <li>Des informations sur la propriété</li>
+         <li>Message de validation </li>
+     </ul>
+    </div>
+    </div>
+
+   <form action="form1.php" enctype="multipart/form-data" style="height: 300vh;" method="post">
+        <fieldset class="field2" id="section2" >
+            <legend style="font-size: larger; font-weight: bold;">Des informations générales sur la propriété</legend>
+            <div id="type" class="container2">
+                <label for="transaction-type" class="t1">Type de transaction :</label>
+                <div> 
+                <input type="radio" id="vente" name="transaction-type" value="vente" onclick="selectVente()">
+                <label for="vente">Vente</label>
+                </div>
+                <div >
+                <input type="radio" id="location" name="transaction-type" value="location" onclick="selectLocation()">
+                <label for="location">Location</label>
+                </div>
+              </div>
+
+            <div class="ss-container22">
+                <label >Choisir un Type :</label>
+                <select  id="type-select" name="type-select" required>
+                    <option value="">--Veuillez choisir un type--</option>
+                    <option value="Maison">Maison</option>
+                    <option value="Appartement">Appartement</option>
+                    <option value="Residence">Residence</option>
+                    <option value="Duplex">Duplex</option>
+                    <option value="Studio">Studio</option>
+                    <option value="Autre">Autre</option>
+                </select>
+            </div>
+
+            <div  class="ss-container222" style="display: flex; gap:20%;width: 60vw;"> 
+                <label for="City" id="ci" class="titre">Régions:</label> 
+                <select id="City" name="City">
+                  <option value="">--Régions--</option>
+                  <option value="Tunis">Tunis</option> 
+                  <option value="Sfax">Sfax</option> 
+                  <option value="Sousse">Sousse</option> 
+                  <option value="Kairouan">Kairouan</option>
+                  <option value="Métouia">Métouia</option> 
+                  <option value="Kebili">Kebili</option> 
+                  <option value="Bizerte">Bizerte</option> 
+                  <option value="Sidi Bouzid">Sidi Bouzid</option> 
+                  <option value="Gabès">Gabès</option> 
+                  <option value="Ariana">Ariana</option> 
+                  <option value="Jendouba">Jendouba</option> 
+                  <option value="Gafsa">Gafsa</option> 
+                  <option value="Msaken">Msaken</option>
+                  <option value="Medenine">Medenine</option>
+                  <option value="Béja">Béja</option> 
+                  <option value="Kasserine">Kasserine</option>   
+                  <option value="Monastir">Monastir</option>
+                  <option value="Hammamet">Hammamet</option>  
+                  <option value="Tataouine">Tataouine</option> 
+                  <option value="La Marsa">La Marsa</option>
+                  <option value="Ben Arous">Ben Arous</option>
+                  <option value="Sakiet ez Zit">Sakiet ez Zit</option>  
+                  <option value="Zarzis">Zarzis</option>
+                  <option value="Ben Gardane">Ben Gardane</option>
+                  <option value="Mahdia">Mahdia</option>
+                  <option value="Houmt Souk">Houmt Souk</option>    
+                  <option value="Fouchana">Fouchana</option>
+                  <option value="Le Kram">Le Kram</option>  
+                  <option value="Le Bardo">Le Bardo</option>
+                  <option value="El Kef">El Kef</option>
+                  <option value="El Hamma">El Hamma</option>
+                  <option value="Nabeul">Nabeul</option>
+                  <option value="Djemmal">Djemmal</option>
+                  <option value="Korba">Korba</option>
+                  <option value="Menzal Temime">Menzal Temime</option>
+                  <option value="Ghardimaou">Ghardimaou</option>
+                  <option value="Menzel Bourguiba">Menzel Bourguiba</option>
+                  <option value="Radès">Radès</option>
+                  <option value="Manouba">Manouba</option>
+                  <option value="Kélibia">Kélibia</option>
+                </select>
+                </div>
+
+            <div class="ss-container2">
+                <label type="text" class="add2"> Adresse : </label>
+                <input type="text" class="add" name="adresse" placeholder="Veuillez entrer l'adresse" required>
+            </div>
+
+            <div class="ss-container2">
+                <label type="text" class="surf1"> Surface habitale : </label>
+                <input type="text" class="surf" name="surf" placeholder="Donner la surface habitale" required>
+            </div>
+
+            <div class="ss-container2">
+                <label type="text" class="prix1"> prix souhaité : </label>
+                <input type="text" class="prix" name="prix" placeholder="Donner le prix" required>
+            </div>
+
+
+            <div class="ss-container2222" style="display: flex; gap:20%;width: 30vw;">
+                <label for="nbre">Nombre de pièces : </label>
+                <select id="nbre_pieces" name="nbre_pieces" required>
+                    <option >S+0</option>
+                    <option >S+1</option>
+                    <option >S+2</option>
+                    <option >S+3</option>
+                    <option >S+4</option>
+                    <option >S+5</option>
+                    <option >Autre</option>
+                    </select>
+                
+            </div>
+
+            
+            <div class="ss-container2" id="parentt">
+                    <label for="images">Sélectionnez vos images :</label>
+                    <input type="file" id="images" name="images" accept="image/*" multiple >      
+            </div>
+
+            <div class="ss-container2">
+                <label for="images">Equipements supplémentaires :</label>
+                <div style="display: flex; flex-direction: column; margin-top: 10%; margin-left: -150px;gap: 5vh;">
+                <div class="ch_box1">
+                    <input type="checkbox" id="piscine" name="piscine">
+                    <label for="piscine" class="aa">Piscine</label>
+                </div>
+                    
+                <div class="ch_box2">
+                    <input type="checkbox" id="jardin" name="jardin">
+                    <label for="jardin" class="aa">Jardin</label>
+                </div>
+                    
+                <div class="ch_box3">
+                    <input type="checkbox" id="garage" name="garage">
+                    <label for="garage" class="aa">Garage</label>
+                </div>
+               </div>
+            </div>
+
+            <div class="ss-container11">
+                <label type="text" > Avez-vous des informations supplémentaires ?  </label>
+                <br>
+                <textarea  placeholder="Entrer vos informations" name="message"></textarea>
+            </div>
+            
+            <div class="button1">
+                <button  class="suivant" name="submit">submit</button>
+                <input type="reset" class="reset" value="Réinitialiser">
+            </div>
+
+        </fieldset>
+    </form>
+    
+
+
+
+<div class="footer" id="contact"> 
+         
+           
+            <div class="media"> <img src="./images/facebook.png" height="30px" width="30px">  Immo+ </div>
+      
+             <div class="media"> <img src="./images/instagram.png" height="30px" width="30px"> Immo++</div>
+              <div class="media"><img src="./images/linkedin.png" height="30px" width="30px">  Immo+ </div>
+         
+              <div class="media"><img src="./images/email.png" height="30px" width="30px">  Immo+lamannouba@gmail.com </div>
+             <div class="media"> <img src="./images/telephone.png" height="30px" width="30px">  55230000/73210444</div>
+             <div class="media"> <img src="./images/adresse.png" height="30px" width="30px">  La mannouba Av habib bourghiba</div>
+         
+      </div>
+      
+
+</body>
+
+
+<script src="form1.js"></script>
+</html>

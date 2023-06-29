@@ -1,0 +1,130 @@
+  
+span{
+    padding-left: 1%;
+    position:absolute;top:-10px;
+     }
+ div.border{
+     background-color:#eee2cf;
+     margin-top: -10px;
+     height:80px;
+     width:100vw ;
+     margin-right: 200px;
+     margin-left: -10px;}
+ body{
+         background-color:#F5F5DC;
+         background-size:cover;
+         overflow-x: hidden;
+         overflow-y: hidden;
+     }
+ .page{
+     
+     margin-left: -2vw;
+     width: 95vw;
+     border:none;
+     display :grid;
+     grid-template-columns: 60% 40%;
+     
+ }
+ .bienvenue{
+     background-image: url("page\ login\ .jpg");
+ 
+     background-size: 120% 120%;
+     border: none;
+     height: 700px;
+     background-repeat: no-repeat;
+     margin-top: 0px;
+     font-size: 20px;
+     flex: 1;
+
+ }
+ 
+ 
+ p{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+     color: rgba(0, 0, 0, 0.7);
+     font-size: large;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-bottom: 20px;
+ }
+ 
+  
+ .login{
+ 
+    border: none;
+    
+    }
+ 
+ .password{
+     margin-left: 10px;
+     margin-bottom: 20px;
+    }
+ .username{
+     margin-left: 10px;
+ 
+    }
+ input{
+     border:none;
+     border-radius: 10px;
+     background-color:white ;opacity: 60%;
+     height: 40px;
+     font-size: 23px;
+     font-family:Arial, Helvetica, sans-serif;
+     margin-top: 50px;
+ 
+ 
+    }
+ .boutton{
+     opacity: 100%;
+     margin-left:55px;
+     border-color: #991b38 0px;
+     width:300px;
+     font-size: 30px;
+     color: white;
+     background-color:#991b38 ;
+     font-weight: border;
+     border-radius: 10px;
+     margin-left: 160px;
+     margin-top: 30px;
+    }
+    .container0{
+        display:flex;
+        flex-direction: row;
+        gap: 126px;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4e4e4e;
+        padding-left: 15%;
+        padding-top: 30px;
+        margin-left: 1%;
+    
+    }
+    .services{
+        background-color: #eee2cf;
+    border: none;
+    
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    color: #991b38;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+    }
+    .contact,.home,.apropos {
+    background-color: #eee2cf;
+    border: none;
+    margin-left: 20px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    color: #4e4e4e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    }

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo .png" >
+    <title>immo+</title>
+    <style>
+    
+    .apropos {
+    background-color: #eee2cf;
+    border: none;
+    
+    color:#4e4e4e;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    .contact {
+    background-color: #eee2cf;
+    border: none;
+    color:#4e4e4e ;
+    
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 28px;
+    color: #4e4e4e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+   *{
+    scroll-behavior: smooth;
+   }
+   
+   span{
+    padding-left: 1%;
+    position:absolute;top:-10px;
+     }
+    div.border{
+    background-color:#eee2cf;
+    margin-top: -10px;
+    height:90px;
+    width:100vw ;
+    margin-right: 200px;
+    margin-left: -10px;}
+     .container0{
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4e4e4e;
+    padding-left: 13%;
+    padding-top: 30px;
+   
+    
+
+}
+body{
+        background-color:#F5F5DC;
+        background-size:cover;
+        overflow-x: hidden;
+        
+    }
+.bienvenue{
+    border: #000000 solid 2px ;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #eee2cfab;
+    
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);  
+}
+h2{
+    margin-left: -5%;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+div.footer{
+    background-color:#eee2cf;
+margin-top: 10vh;
+height:100px;
+width:100% ;
+padding-left: 120px;
+display:grid;
+grid-template-columns: 31% 31% 31%;
+grid-template-rows: 50% 50%;
+
+padding-top: 0.5%;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+} 
+div.media{
+display:flex;
+flex-direction: row;
+gap:2%;
+align-items: center;
+} 
+.filtre{
+    border: solid 2px #11111076;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 2%;
+    align-items: flex;
+    color: #6b0d23;
+    background-color: #eee2cfab;
+    
+    
+}
+
+#min_surf,#max_surf,#result_min,#result_max,#min_price,#max_price,#min_price_result,#max_price_result{
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.achat,.loc{
+    display: inline-block;
+    margin-left: 25%;
+    font-size: larger;
+
+    
+}
+.ligne_choix{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-right: 5%;
+    font-size: large;
+
+}
+.marge{
+    margin-left: 20%;
+}
+#categories,#villes,#nbre_pieces{
+    width: auto;
+    height: 80%;
+    border: #0000007d 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#min_surf,#max_surf,#min_price,#max_price{
+    font-size: large;
+}
+.supp{
+    margin-left: 15%;
+    
+}
+.ch_box1,#ch_box2,#ch_box3{
+    font-size: larger;
+}
+button{
+    width:200px;
+    height: 40px;
+    border-color: #0000008b;
+    border-radius: 20px;
+    color: #991b38;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: #eee2cf;
+    margin-top: 3%;
+    position: relative;
+    margin-left: 40%;
+   }
+    </style>
+
+    
+</head>
+<body>
+    <div class="border">
+        <span><a href="page acceuil1.html"><img src="./images/logo.png" width="130px" height="90px"></a></span>
+        <div class="container0">
+            <div><a href="./page acceuil1.html" style="text-decoration: none;color: #4e4e4e; ">Accueil </a></div>
+            <a class="apropos" href="./a propos1.html" style="text-decoration: none;color: #4e4e4e; ">A propos </a>
+              <a class="contact" href="contact1.html" style="text-decoration: none;color: #4e4e4e; ">Contact </a>
+              <div class="services"><a href="./page de services.html" style="text-decoration: none;color: #991b38; ">Nos Services </a></div>
+              <div class="services"><a href="./logout.php" style="text-decoration: none;color: #4e4e4e; ">Se deconnecter </a></div>
+            </div>  
+     </div> 
+
+         <div class="bienvenue">
+            <h1>*** BIENVENUE DANS NOTRE COLLECTION ***</h1>
+            <p>Dans cette etape on s'intérresse bien à connaitre un peu de détail pour votre propriété désiré 
+                afin de vous faciliter la procédure de recherche en fournissant le plus convenables choix avec une 
+                meilleur qualité 
+            </p>
+         </div>
+         <fieldset class="filtre">
+            
+            <legend style="text-align: center;"><h1 style="font-size: 180%;background-color: #F5F5DC;border-radius: 10px; " > Choisir les caractéristiques correspondantes</h1></legend>
+            <br>
+            <form action="filtre.php" method="post">
+            <div class="location_achat">
+                <div class="loc">
+                    <label for="location"><b>Location</b></label>
+                    <input type="radio" name="loc_ach" value="location">
+                </div>
+                
+                <div class="achat">
+                    <label for="achat"><b>Achat</b></label>
+                    <input type="radio" name="loc_ach" value="vente">
+                </div>
+                
+                <br><br><br>
+            </div>
+            <div class="ligne_choix">
+
+            <div class="types">
+                <label for="categorie"><b>Le type du proprietés</b> </label>
+            
+                        <select id="categories" name="categorie" >
+                            <option value="">-- Choisir un type --</option>
+                            <option value="Maison">Maison</option>
+                            <option value="Appartement">Appartement</option>
+                            <option value="Residence">Résidence</option>
+                            <option value="Duplex">Duplex</option>
+                            <option value="Studio">Studio</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+            </div>
+            
+            <br><br>
+
+            <div class="regions">
+                <label for="villes"><b>Régions</b> </label>
+                <select id="villes" name="villes" >
+                    <option value="">--Choisir une région--</option>
+                    <option value="Tunis">Tunis</option> 
+                    <option value="Sfax">Sfax</option> 
+                    <option value="Sousse">Sousse</option> 
+                    <option value="Kairouan">Kairouan</option>
+                    <option value="Métouia">Métouia</option> 
+                    <option value="Kebili">Kebili</option> 
+                    <option value="Bizerte">Bizerte</option> 
+                    <option value="Sidi Bouzid">Sidi Bouzid</option> 
+                    <option value="Gabès">Gabès</option> 
+                    <option value="Ariana">Ariana</option> 
+                    <option value="Jendouba">Jendouba</option> 
+                    <option value="Gafsa">Gafsa</option> 
+                    <option value="Msaken">Msaken</option>
+                    <option value="Medenine">Medenine</option>
+                    <option value="Béja">Béja</option> 
+                    <option value="Kasserine">Kasserine</option>   
+                    <option value="Monastir">Monastir</option>
+                    <option value="Hammamet">Hammamet</option>  
+                    <option value="Tataouine">Tataouine</option> 
+                    <option value="La Marsa">La Marsa</option>
+                    <option value="Ben Arous">Ben Arous</option>
+                    <option value="Sakiet ez Zit">Sakiet ez Zit</option>  
+                    <option value="Zarzis">Zarzis</option>
+                    <option value="Ben Gardane">Ben Gardane</option>
+                    <option value="Mahdia">Mahdia</option>
+                    <option value="Houmt Souk">Houmt Souk</option>    
+                    <option value="Fouchana">Fouchana</option>
+                    <option value="Le Kram">Le Kram</option>  
+                    <option value="Le Bardo">Le Bardo</option>
+                    <option value="El Kef">El Kef</option>
+                    <option value="El Hamma">El Hamma</option>
+                    <option value="Nabeul">Nabeul</option>
+                    <option value="Djemmal">Djemmal</option>
+                    <option value="Korba">Korba</option>
+                    <option value="Menzal Temime">Menzal Temime</option>
+                    <option value="Ghardimaou">Ghardimaou</option>
+                    <option value="Menzel Bourguiba">Menzel Bourguiba</option>
+                    <option value="Radès">Radès</option>
+                    <option value="Manouba">Manouba</option>
+                    <option value="Kélibia">Kélibia</option>
+                </select>
+            </div>
+            <br><br>
+
+            <div class="nombre de pieces">
+                <label for="nbre"><b> Nombre de pièces</b> </label>
+                <select id="nbre_pieces" name="nbre_pieces" >
+                    <option value="">----</option>
+                    <option value="S+0">S+0</option>
+                    <option value="S+1">S+1</option>
+                    <option value="S+2">S+2</option>
+                    <option value="S+3">S+3</option>
+                    <option value="S+4">S+4</option>
+                    <option value="S+5">S+5</option>
+                    <option value="autre">Autre</option>
+                    </select>
+                
+            </div>
+        </div>
+<br>
+<div class="marge">
+    <div class="surface">
+        <h2>Marge de surface :</h2>
+        <label for="min_surf">Minimum de surface m² :</label>
+        <label style="padding-left: 10%;" for="max_surf">Maximum de surface m² :</label>
+        <br>
+        <input id="min_surf_input" name="min_surf" type="range" min="00" max="200" step="20" value="00" oninput="document.getElementById('result_min').innerHTML = this.value;">
+        <p id="result_min">00</p>
+
+        <input id="max_surf_input" name="max_surf" type="range" min="300" max="5000" step="50" value="50000" oninput="document.getElementById('result_max').innerHTML = this.value;">
+        <p id="result_max">5000</p>
+    </div>
+
+    <div class="price">
+        <h2>Marge de prix :</h2>
+        <label for="min_price">Minimum de prix en DT :</label>
+        <label style="padding-left: 10%;" for="max_price">Maximum de prix en DT :</label>
+        <br>
+        <input id="min_price_input" name="min_price" type="range" min="00" max="1000" step="100" value="00" oninput="document.getElementById('min_price_result').innerHTML = this.value;">
+        <p id="min_price_result">500</p>
+
+        <input id="max_price_input" name="max_price" type="range" min="1000" max="100000" step="100" value="100000" oninput="document.getElementById('max_price_result').innerHTML = this.value;">
+        <p id="max_price_result">100000</p>
+    </div>
+</div>
+
+
+           
+
+        </div>
+        <div class="supp">
+            <h2>Equipements supplémentaires :</h2>
+            <div class="ch_box1">
+                <input type="checkbox" id="piscine" name="piscine">
+                <label for="piscine">Piscine</label>
+            </div>
+                
+            <div class="ch_box2">
+                <input type="checkbox" id="jardin" name="jardin">
+                <label for="jardin" >Jardin</label>
+            </div>
+                
+            <div class="ch_box3">
+                <input type="checkbox" id="garage" name="garage">
+                <label for="garage">Garage</label>
+            </div>
+                
+
+           </div>
+
+           <div class="chercher">
+            <button type="submit" name="chercher">Chercher</button>
+                
+           </div>
+        </form>
+         </fieldset>
+
+
+
+         <div class="footer" id="contact"> 
+         
+           
+            <div class="media"> <img src="./images/facebook.png" height="30px" width="30px">  Immo+ </div>
+      
+             <div class="media"> <img src="./images/instagram.png" height="30px" width="30px"> Immo++</div>
+              <div class="media"><img src="./images/linkedin.png" height="30px" width="30px">  Immo+ </div>
+         
+              <div class="media"><img src="./images/email.png" height="30px" width="30px">  Immo+lamannouba@gomail.com </div>
+             <div class="media"> <img src="./images/telephone.png" height="30px" width="30px">  55230000/73210444</div>
+             <div class="media"> <img src="./images/adresse.png" height="30px" width="30px">  La mannouba Av habib bourghiba</div>
+         
+      </div>
+</body>
+</html>
+
+    
+
+
+

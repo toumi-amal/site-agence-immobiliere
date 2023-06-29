@@ -1,0 +1,173 @@
+h5{
+    color:#991b38;
+    font-size: 50px;
+    font-family:Edu NSW ACT Foundation;
+   font-style:italic;
+    text-align: 10px;
+   position:relative;
+   left:63%;
+}
+p.aboutus{
+    
+    position:relative;
+    text-align:center;
+    font-size: 20px;
+    line-height: 25px;
+    border: solid;
+    border-radius: 3vh;
+    width: 37%;
+    margin-left: 55%;
+    box-shadow: 10px 5px 5px #4e4e4e;
+    padding:2% 2% 2% 2%;
+} 
+.photo1{
+    position:relative;
+    left: 0;
+    top:03.1vh;
+}
+
+
+table{
+    padding-left: 10%;
+    border-spacing: 120px;
+    
+    font-size: 30px;
+    color: #4e4e4e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+span{
+    padding-left: 1%;
+    position:absolute;top:-10px;
+     }
+ div.border{
+     background-color:#eee2cf;
+     margin-top: -10px;
+     height:80px;
+     width:100vw ;
+     margin-right: 200px;
+     margin-left: -10px;}
+
+body{
+    background-color:#F5F5DC;
+    background-size:cover;
+    overflow-x: hidden;
+    
+
+}
+div.photo{
+    opacity: 90%;
+    margin-top:0px;
+   margin-left: -10px;
+}
+div.footer{
+    background-color:#eee2cf;
+margin-top: 10vh;
+height:100px;
+width:100% ;
+padding-left: 120px;
+display:grid;
+grid-template-columns: 31% 31% 31%;
+grid-template-rows: 50% 50%;
+
+padding-top: 0.5%;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+}  
+div.media{
+display:flex;
+flex-direction: row;
+gap:2%;
+align-items: center;
+} 
+.apropos {
+background-color: #eee2cf;
+border: none;
+
+color:#4e4e4e;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+cursor: pointer;
+}
+.contact {
+background-color: #eee2cf;
+border: none;
+color:#4e4e4e ;
+
+text-decoration: none;
+display: inline-block;
+
+font-size: 30px;
+color: #4e4e4e;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+cursor: pointer;
+}
+.container0{
+    display:flex;
+    flex-direction: row;
+    gap: 126px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4e4e4e;
+    padding-left: 13%;
+    padding-top: 30px;
+   
+    
+
+}
+
+
+ .valeur{
+    height: 55vh;
+    width: 70%;
+    box-shadow: 10px 5px 5px #4e4e4e;
+    border-radius: 3vh;
+    border: solid;
+    margin-top: 43vh;
+
+ }
+ .valeur img{
+    border-radius: 3vh;
+    
+ }
+ .valeurr{
+    height: 30vh;
+    width: 15%;
+    box-shadow: 10px 5px 5px #4e4e4e;
+    border-radius: 20vh;
+    border: solid;
+    margin-top: -40vh;
+    margin-left: 80%;;
+
+ }
+
+ .valeurr img{
+    padding-top: 13%;
+ }
+
+ @-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotateY(0);
+    }
+    to{
+        -webkit-transform: rotateY(360deg);
+    }
+}
+.valeurr {
+    -webkit-animation: rotating 2s linear infinite;
+}
+
+.mySlides{
+    margin-top: 35vh;
+    margin-left: 05vw;
+    border-radius: 10vh;
+    box-shadow: 5px 5px 5px #4e4e4e;
+    border: solid;
+
+}

@@ -1,0 +1,121 @@
+body{
+    scroll-behavior: smooth;
+  }
+   
+span{
+    padding-left: 1%;
+    position:absolute;top:-10px;
+    }
+div.border{
+    background-color:#eee2cf;
+    margin-top: -10px;
+    height:90px;
+    margin-right: -8px;
+    margin-left: -10px;
+}
+body{
+    background-color:#F5F5DC;
+    background-size:cover;
+    overflow-x: hidden;
+}
+#image1 , #image2{
+    width: 500px;
+    height: 550px;
+    margin-top: 60px;
+    margin-left: 10%;
+    border-radius: 10%;
+    border: solid 2px #45421e;
+}
+
+.client{
+    display: flex;
+    margin-left: 50px;
+}
+.client1{ 
+    position: relative;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+.client2{
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ 
+#parag1{
+    position: absolute;
+    top: 13%;
+	left: 20%;
+    font-size: 110%;
+    display: none;
+  }
+#parag2{
+    position: absolute;
+    top: 13%;
+	left: 20%;
+    font-size: 104%;
+    display: none;  
+}
+
+.button{ 
+    background-color: #e1b2b2d1;
+    color: #991b38;
+    border-radius: 20px;
+    border: solid 2px #991b38;
+  }
+
+div.footer{
+    background-color:#eee2cf;
+    margin-top: 100px;
+    height:100px;
+    width:100% ;
+    padding-left: 120px;
+    display:grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 50% 50%;
+    margin-bottom: -10px;
+    padding-top: 0.5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: -10px;
+}  
+.container0{
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4e4e4e;
+    padding-left: 13.1%;
+    padding-top: 30px;
+    
+
+}
+.apropos {
+    background-color: #eee2cf;
+    border: none;
+    
+    color:#4e4e4e;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    .contact {
+    background-color: #eee2cf;
+    border: none;
+    color:#4e4e4e ;
+    
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 28px;
+    color: #4e4e4e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    }
+ 
